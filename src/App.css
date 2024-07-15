@@ -1,0 +1,43 @@
+.game {
+  width: fit-content;
+  margin: auto;
+}
+
+.grid-row {
+  display: flex;
+}
+
+.grid-item {
+  height: 70px;
+  width: 70px;
+  background-color: rgb(188, 188, 253);
+  margin: 5px;
+  border: 1px solid rgb(149, 149, 221);
+  cursor: pointer;
+  text-align: center;
+  font-size: xx-large;
+  align-content: center;
+  border-radius: 10px;
+}
+
+.disabled-cell {
+  pointer-events: none;
+}
+
+.hidden-cell {
+  background-color: white;
+  border: none;
+  content: none;
+}
+
+.play-btn {
+  border: none;
+  background-color: rgb(134, 255, 134);
+  padding: 10px;
+  font-size: x-large;
+  border-radius: 6px;
+}
+
+.hide-value {
+  display: none;
+}
